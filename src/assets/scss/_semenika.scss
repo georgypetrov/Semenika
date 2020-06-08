@@ -1,0 +1,478 @@
+.register{
+    .additional{
+        color: #9699a0;
+        margin: 0;
+        font-size: 12px;
+    }
+    .additional-text{
+        font-size: 11px;
+    }
+    .reg-form{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+    }
+    .reg-form p{
+        width: fit-content;
+    }
+    .check-container {
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+    }
+    .check-container > p {
+        padding-left: 1.5rem;
+        margin-bottom: 5px;
+    }
+    .card-body{
+        background: #3e4b65;
+    }
+    h1{
+        color: #ffffff;
+        text-align: center;
+    }
+    .form-control{
+        border-radius: 1px;
+    }
+    .form-group{
+        padding: 0 5px;
+    }
+    .left{
+        padding-left:15px;
+    }
+    .right{
+        padding-right:15px;
+    }
+    .login-back {
+        width: 100%;
+        margin-top:15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .login-back a{
+        margin-right:14%;
+        margin-top:2%;
+        color: #ffffff;
+    }
+    #go-next{
+        padding: 13px 55px;
+        border-radius: 6px;
+        background-color: #38d984;
+        border-color: #38d984;
+    }
+    #role-text{
+        font-size:18px;
+        margin-bottom:0px;
+    }
+    #back-btn{
+        background: none;
+        border: none;
+        color: #ffffff;
+        padding: 13px 55px;
+    }
+    p{
+        color: #ffffff;
+    }
+    .company-check{
+        margin-left: 0px!important;
+        height: 18px;
+        width: 18px;
+        margin-top: 0.2rem;
+    }
+    .submit-container {
+        display: flex;
+        justify-content: center;
+    }
+    .form-group > label {
+        display: none;
+    }
+    .checkbox-step-2{
+        color:#ffffff;
+    }
+}
+
+header{
+    .c-header-nav-link {
+        color: #4f5d73;
+    }
+    .c-header-exit-btn{
+        border:none;
+    }
+    .c-header-exit-btn{
+        background: transparent;
+        color: #4f5d73;
+    }
+    .c-header-exit-btn img{
+        height:18px;
+        width:18px;
+        margin-bottom: 2px;
+        margin-right: 2px;
+    }
+    .c-header-nav .c-header-nav-item{
+        padding: 0 10px!important;
+    }
+}
+.seme-menu{
+    background: #3e4b65;
+    // this has to be removed when the narbars are ready
+    li[class^="c-sidebar-nav"] a{
+        color: #ffffff!important;
+    }
+    li[class^="c-sidebar-nav"] {
+        color: #ffffff!important;
+        list-style: none;
+        border-bottom-style: groove;
+        border-color: #888e9b;
+        border-width: medium;
+    }
+    .c-sidebar-nav-icon {
+        color: #ffffff!important;
+    }
+    .icon-pic{
+        width:20px; 
+        margin-right:20px;
+    }
+    // #64d599
+    .c-sidebar-nav-link:hover, .c-sidebar-nav-dropdown-toggle:hover{
+        background: #64d599BF;
+    }
+    .c-sidebar-nav-link.c-active, .c-active.c-sidebar-nav-dropdown-toggle{
+        background: #64d599;
+    }
+    .seme-logo-container{
+        background: #303c54;
+    }
+}
+.c-main{
+    background: #ebedef;
+}
+.semi-logo-img{
+    height: 25px;
+    width: auto;
+}
+.profile-avatar-img{
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+}
+.page-item.active .page-link{
+    background: #38d984;
+    border: 1px solid transparent;
+}
+.page-item .page-link{
+    color: #4f5d73;
+}
+
+.semenika-table{
+    th{
+        background: #f5f5f5;
+        color: #4f5d73;
+        padding-right: 5px;
+    }
+    td{
+        background: #ffffff;
+    }
+    th, td{
+        border-right: 2px solid #d8dbe0;
+    }
+    th:last-child, td:last-child{
+        border-right:none;
+    }
+    th div{
+        font-size:13px;
+    }
+    th, tr{
+        border: 1px solid #d8dbe0;
+        border-right: 2px solid #d8dbe0;
+    }
+    .table-sm th{
+        border-bottom: 1px solid #d8dbe0!important;
+        
+    }
+    .form-inline label{
+        display:none;
+    }
+    .form-inline input{
+        min-width:300px;
+    }
+    .form-inline .justify-content-sm-end label{
+        display: inline-block!important;
+    }
+}
+
+.apply-container{
+    background: #ffffff;
+    padding: 30px;
+    .check-text{
+        margin-bottom: 0px;
+        margin-left: 25px;
+    }
+    p{
+      margin-top:5px;
+      font-size: 14px;
+    }
+    .box-heading {
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    h5{
+        margin: 15px 0;
+        width: 50%;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    #additional-text{
+        font-size:15px;
+    }
+    .type-check{
+      padding: 10px 0;
+    }
+    #small-control{
+      display: flex;
+      flex-wrap: wrap
+    }
+    .small-input{
+      width: 60%;
+    }
+    .small-text{
+      width: 40%;
+      position: relative;
+      top: 15px;
+      left: 20px;
+      font-size: 18px;
+    }
+    .input-group-prepend span{
+      background: #ffffff;
+      border: none;
+      font-size: 16px;
+      min-width: 160px;
+    }
+    .col-right{
+      text-align: right;
+    }
+    .lot td{
+      width:100px;
+    }
+    .lot p{
+      padding:0;
+    }
+    input[type="text"] {
+      border-radius: 3px;
+      border: 1px solid #d5d5d5;
+      padding: 5px 10px;
+    }
+    #add-new-btn{
+      background: #ffffff;
+      border: none;
+      font-size: 18px;
+      color: forestgreen;
+      margin-left: 25px;
+    }
+    .seeds-info{
+      width: 100%;
+      min-height:80px;
+    }
+    .apply-submit{
+      margin-top:50px;
+      padding: 10px 30px;
+    }
+}
+.label-header-text{
+    color: #4f5d73;
+}
+.label-apply-btn{
+    background-color: #38d984;
+    border: none;
+    color: #ffffff;
+    margin: 25px 0px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.label-apply-btn:hover{
+    color: #38d984;
+    background: #ffffff;
+    border: 1px solid #38d984;
+    text-decoration: none;
+}
+.admin-switch{
+    position: relative;
+    margin-left: 50px;
+    margin-top: -38px;
+    width: fit-content;
+}
+.form-group select{
+    background: #fff url("/img/semenika/up-down-arrows.png") no-repeat right -0.1rem center/30px 35px;
+}
+.custom-select:focus{
+    border-color:#ffffff;
+    box-shadow: 0px 0px 0px 0.2rem rgba(0,0,0,0.15);
+}
+.c-header-toggler:focus {
+    outline: none;
+}
+.page-link:focus{
+    outline: none;
+    box-shadow: none;
+}
+.lot-numbers::placeholder {
+    color: #d5d5d5;
+}
+.seme-sidebar{
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+}
+.c-footer{
+    border: none;
+}
+.heading-text {
+    font-size: 18px;
+}
+.dash-container{
+    background: #ffffff;
+    margin: 10px;
+    
+    /* the lines below will be removed later*/
+    min-height: 50vh;
+}
+.dash-heading-text{
+  font-size: 23px;
+  color: #4f5d73;
+  margin: 0;
+  padding: 22px 0;
+}
+.dash-see-all{
+  background: transparent;
+  color: #66b3ff;
+  border: 1px solid #707070;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+.dash-see-all:hover{
+  background: #66b3ff;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.dash-see-category{
+  background: #66b3ff;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  margin-right: 20px;
+  border: 1px solid transparent;
+}
+.dash-see-category:hover{
+  background: #ffffff;
+  color: #66b3ff;
+  border: 1px solid #707070;
+}
+.in-dash-line{
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+button:focus{
+  outline: none;
+}
+#actions{
+    margin: 0;
+    list-style-image: url('/img/semenika/arrow-small.png');
+    list-style-position: inside;
+    padding: 0;
+    border-left: 1px solid #ebedef;
+    border-right: 1px solid #ebedef;
+    border-top: 1px solid #ebedef;
+    width: 90%;
+}
+#actions li{
+  padding: 10px 0px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ebedef;
+  padding-left: 10px;
+}
+#actions li:nth-child(odd){
+  background: #f6f6f6;
+}
+#actions li a{
+  color: #424345;
+}
+#actions li a:hover{
+  text-decoration:none;
+  color: #000000;
+}
+.row-below{
+    margin-top: 20px;
+}
+#cereals, #city, #phone, #picker input{
+    width: 90%;
+}
+.head-item{
+  margin: 20px 0 0 15px;
+  cursor: pointer;
+  display: none;
+}
+#minimized-li{
+  display:none;
+}
+.seme-sidebar.active{
+  display: list-item!important;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: none;
+}
+input.lot-numbers {
+    width: 90%;
+}
+.role-status {
+    margin-top: 5px;
+}
+// the fallowing lines should be moved to responsive scss
+@media (max-width: 991px) { 
+    .c-header{
+        background: #3e4b65;
+    }
+    .mobile-hidden{
+        display: none;
+    }    
+    #user-names{
+        display: none;
+    }
+    .responsive-logo{
+        width: auto;
+        height: 40px;
+        border-radius:0;
+    }
+    header .c-header-exit-btn{
+        color: #ffffff;
+    }
+    .c-header .c-header-toggler-icon{
+        background-image:url("/img/semenika/toggler-white.png")
+    }
+    .register .left, .register .right{
+        padding: 0 5px;
+    }
+    .col-md-11[data-v-498d73f4] {
+        margin-left: unset!important;
+    }
+    .head-item{
+        display: list-item;
+    }
+    .register #go-next{
+        padding: 10px 20px;
+    }
+    .register .login-back a{
+        margin-right: 10%;
+        margin-top: 0;
+    }
+}
